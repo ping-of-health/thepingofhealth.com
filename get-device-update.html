@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<title>
+  Get a Device Record
+</title>
+<head>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+<script>
+
+function submitToAPI(e) {
+  e.preventDefault();
+
+  var URL               = "https://pn5l8l1u5e.execute-api.ap-southeast-1.amazonaws.com/add-device-update";
+  var device_make       = $("#device-make-input").val();
+  var device_model      = $("#device-model-input").val();
+
+  var data = {
+    make: device_make,
+    model: device_model,
+  };
+
+  $.ajax({
+         type: "GET",
+         url : URL,
+         dataType: "json",
+         crossDomain: "true",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(data),
+
+         success: function () {
+           // clear form and show a success message
+           console.log(data);
+           alert("Successfull");
+           document.getElementById("add-device-form").reset();
+       location.reload();
+         },
+         error: function () {
+           // show an error message
+           alert("UnSuccessfull");
+           console.log(data);
+         }});
+}
+</script>
+</head>
+
+<h1>Add a Device Update Record to Database</h1>
+<body>
+<form id="add-device-form" method="post">
+      <h4>Device Make:</h4>
+      <input type="text" style="height:35px;width:100%;" id="device-make-input" placeholder="Device Make" class="form-control"/><br/>
+      <h4>Device Model:</h4>
+      <input type="text" style="height:35px;" id="device-model-input" placeholder="Device Model" class="form-control"/><br/>
+
+    <!-- <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div> -->
+      <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Query</button>
+</form>
+</body>
+
+</html>
