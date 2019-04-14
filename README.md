@@ -37,6 +37,26 @@ These are the gaps identified:
 1. Requires Data of All Known Devices
    - Where is the CVEDetails.com equivalent of database for known versions for home devices?
 
+# New Proposal
+
+## Platform and Database, Data Framework for IoT
+- Centralized Database
+  - Find Home Device Updates and Versions
+  - Add Home Device Updates and Versions
+  - Edit/Remove Home Device Updates and Versions
+- Open Source
+- Consistent Data Framework for Integration
+- API driven
+
+- Data Framework
+  - Device Make
+  - Device Model
+  - Device Type
+  - Firmware / Version Number
+  - Publish Date
+  - Description / Link
+  -- ...
+
 
 ## POC Demo
 
