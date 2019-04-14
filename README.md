@@ -60,5 +60,5 @@ These are the gaps identified:
 
 ## POC Demo
 
-[Add Device Record to Database](./add-device-update.html)
-[Query Device from Database](./get-device-update.html)
+* [Add Device Record to Database](./add-device-update.html)
+* [Query Device from Database](./get-device-update.html)
