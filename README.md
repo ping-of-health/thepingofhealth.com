@@ -1,6 +1,6 @@
 # Our Story
 
-## Problem Statement 1
+## Original Problem Statement
 
 I have many home devices (IoT).
 How do I know if all my devices are patched?
