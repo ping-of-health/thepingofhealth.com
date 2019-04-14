@@ -55,11 +55,10 @@ These are the gaps identified:
   - Firmware / Version Number
   - Publish Date
   - Description / Link
-  -- ...
+  - ...
 
 
 ## POC Demo
 
 [Add Device Record to Database](./add-device-update.html)
-
 [Query Device from Database](./get-device-update.html)
