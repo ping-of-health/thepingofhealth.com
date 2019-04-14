@@ -1,4 +1,4 @@
-# the ping of health
+# Our Story
 
 ## Problem Statement 1
 
@@ -7,13 +7,13 @@ How do I know if all my devices are patched?
 
 Do I know even know many devices I have?
 
-## User Story:
+## User Story
 
-As a homeowner of many devices, 
-I want to know which home devices are outdated and vulnerable to known exploits, 
+As a homeowner of many devices,
+I want to know which home devices are outdated and vulnerable to known exploits,
 so that I can patch them.
 
-## Audience:
+## Audience
 
 Tech savvy (multiple devices)
      +
@@ -60,7 +60,6 @@ These are the gaps identified:
 
 ## POC Demo
 
-[Add Device Record to Database](https://ping-of-health.github.io/thepingofhealth.com/add-device-update.html)
+[Add Device Record to Database](./add-device-update.html)
 
-[Query Device from Database](https://ping-of-health.github.io/thepingofhealth.com/get-device-update.html)
-
+[Query Device from Database](./get-device-update.html)
