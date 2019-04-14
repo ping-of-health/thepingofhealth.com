@@ -60,7 +60,7 @@ These are the gaps identified:
 
 ## POC Demo
 
-[Add Device Record to Database](https://ping-of-health.github.io/thepingofhealth.com/add-device-update.html(target|_blank)")
+[Add Device Record to Database](https://ping-of-health.github.io/thepingofhealth.com/add-device-update.html)
 
-[Query Device from Database](https://ping-of-health.github.io/thepingofhealth.com/get-device-update.html"(target|_blank)")
+[Query Device from Database](https://ping-of-health.github.io/thepingofhealth.com/get-device-update.html)
 
