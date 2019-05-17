@@ -1,5 +1,8 @@
 # Our Story
 
+[![Known Vulnerabilities](https://snyk.io/test/github/ping-of-health/thepingofhealth/badge.svg?targetFile=package.json)](https://snyk.io/test/github/ping-of-health/thepingofhealth?targetFile=package.json)
+[![GuardRails badge](https://badges.guardrails.io/ping-of-health/thepingofhealth.com.svg?token=1695499237034785ceda1925c68aa409ba3d4681b27d6b6733f9d1670cb28baf)](https://dashboard.guardrails.io/default/gh/ping-of-health/thepingofhealth.com)
+
 ## Original Problem Statement
 
 I have many home devices (IoT).
